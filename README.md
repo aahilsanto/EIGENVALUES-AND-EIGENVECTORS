@@ -17,13 +17,11 @@ End the program
 
 ## Program:
 
+```
 Program to find the solution for the given linear equations.
-
 Developed by: A Ahil Santo
-
 RegisterNumber: 212224040018
 
-```
 import numpy as np
 A=np.array([[2,2],[1,3]])
 val,vet=np.linalg.eig(A)
@@ -33,7 +31,7 @@ print(f"Eigen values are {val} and Eigen Vectors are {vet}")
 
 ## Output:
 
-<img width="1220" height="338" alt="image" src="https://github.com/user-attachments/assets/9319b6a3-0dcf-43a3-9c97-47b8d5df3973" />
+<img width="1223" height="760" alt="image" src="https://github.com/user-attachments/assets/76daf6a9-affb-4984-a775-2e7aced560bd" />
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
